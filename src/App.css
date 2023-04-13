@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+.App ul{
+  padding: 1rem;
+  width: 6rem;
+  background-image: linear-gradient(to top right,#009fff, #ec2f4b);
+  border-radius: 10px;
+  font-weight: 500;
+  color: white;
+}
+.App .count-field{
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+.App textarea{
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.App button{
+  margin: 0 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(82, 105, 175);
+}
+.App button:hover{
+  background-color: rgb(32, 48, 96);
+
+}
+
+
